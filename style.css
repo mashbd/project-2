@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: auto;
+    width: 90%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10%;
+    margin-top: 40px;
+}
+.header h4{
+
+}
+
+
+.main-header {  text-align: center;
+           margin-top: 250px;
+   
+}
+.main-header h1{
+    font-size: 40px;
+}
+.main-header h4{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+.left-section{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+.left-section h1{
+    margin-right: -650px;
+    z-index: 999;
+    margin-top: -18px;
+    font-size: 30px;
+    color:black;
+}
+.clr{
+    clear: both;
+}
+.right-section{
+    margin-top: 120px;
+    
+}
+.right-section h1{
+    z-index: 999;
+    margin-top: -18px;
+    font-size: 30px;
+}
+.right-section a{
+     text-decoration: none;
+     display: inline-block;
+     color: #000000;
+     border: 1px solid black;
+     padding: 10px 16px;
+     text-transform: uppercase;
+     padding: 10px 16px;
+     font-size: 13px;
+     margin-left: 600px;
+     margin-top: 120px;
+     margin-bottom: 120px;
+     
+    
+}
+.right-section a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.about{
+    height: 300px;
+    width: 45%;
+    background-color: black;
+}
+.about h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 150px;
+}
+.logos{
+    height: 300px;
+    width: 45%;
+    background-color: black;
+}
+.logos h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 150px;
+}
+.about:hover{
+    color: black;
+    background-color: #F1F1F1;
+    transition: 0.7s;
+    }
+.logos:hover{
+    color: black;
+    background-color: #F1F1F1;
+    transition: 0.7s;
+}
+.about h1:hover{
+    color: black;
+}
+ 
+.logos h1:hover{
+    color: black;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-one h4{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.footer-one a{
+    text-decoration: none;
+    color:#636363;
+
+}
+.footer a:hover{
+    color: black;
+}
+.main-footer  li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.main-footer li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #636363;
+}
+.main-footer li a:hover{
+    color: #161616;
+};
